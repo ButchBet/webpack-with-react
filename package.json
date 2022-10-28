@@ -1,0 +1,24 @@
+{
+  "name": "webpack-with-react",
+  "version": "1.0.0",
+  "description": "This is a repository created to learn about to implement webpack with Reactjs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ButchBet/webpack-with-reactt.git"
+  },
+  "keywords": [],
+  "author": "pescuesoCaliente2000",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ButchBet/webpack-with-reactt/issues"
+  },
+  "homepage": "https://github.com/ButchBet/webpack-with-reactt#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
