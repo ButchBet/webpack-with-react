@@ -10,7 +10,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath: "/",
         clean: true,
     },
 
@@ -64,18 +63,8 @@ module.exports = {
         }),
     ],
 
-    devServer: {
-        static: {
-            directory: path.join(__dirname, 'dist'),
-        },
-        compress: true,
-        // historyApiFallback: true,
-        port: 3006,
-        open: true,
-    } 
-
     optimization: {
-        minimize: true;
+        minimize: true,
         minimizer: [
             new cssMinimizerWebpackPlugin(),
             new terserWebpackPlugin(),
